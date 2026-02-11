@@ -1,6 +1,9 @@
 * {
     text-align: center;
 }
+header {
+    background-color: blue;
+}
 h2 {
     background-color: aqua;
 }
@@ -9,8 +12,24 @@ p {
 }
 button {
     background-color: yellow;
-       
+}
+button:hover {
+    background-color: brown;
 }
 footer {
     background-color: red;
 }
+.flex {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.in {
+    padding: 20px;
+    width: 300px;
+    border-radius: 12px;
+    background-color:rgba(50, 50, 50, 0.5);
+}
+
